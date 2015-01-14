@@ -17,7 +17,7 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="财富中心" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVq-fM-qcW">
                         <rect key="frame" x="183" y="16" width="129" height="21"/>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="渝北区星光路1号" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76O-fs-91d">
@@ -38,16 +38,34 @@
                         <color key="textColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+<<<<<<< HEAD
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="63Y-dM-0Lz">
                         <rect key="frame" x="10" y="8" width="150" height="115"/>
                     </imageView>
                 </subviews>
             </tableViewCellContentView>
             <point key="canvasLocation" x="241" y="271"/>
+=======
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="right_arrow.png" id="ai7-X1-3Bk">
+                        <rect key="frame" x="301" y="55" width="13" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addrLabel" destination="76O-fs-91d" id="eLQ-Iz-IMy"/>
+                <outlet property="countLabel" destination="cTD-HD-iwb" id="V0g-aV-Tb4"/>
+                <outlet property="coverView" destination="63Y-dM-0Lz" id="SJU-fZ-5fp"/>
+                <outlet property="descLabel" destination="pQ5-Wq-JKR" id="HfU-JR-AON"/>
+                <outlet property="titleLabel" destination="uVq-fM-qcW" id="jUz-cY-DRq"/>
+            </connections>
+            <point key="canvasLocation" x="280" y="323"/>
+>>>>>>> FETCH_HEAD
         </tableViewCell>
     </objects>
     <resources>
         <image name="placeholder.jpg" width="160" height="140"/>
+        <image name="right_arrow.png" width="25" height="41"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
