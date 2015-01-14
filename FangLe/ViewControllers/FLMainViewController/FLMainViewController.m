@@ -8,6 +8,8 @@
 
 #import "FLMainViewController.h"
 #import "FLMainTableViewCell.h"
+#import "FLGroupListViewController.h"
+
 @interface FLMainViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak , nonatomic) IBOutlet UITableView *tableView;
 @property (weak , nonatomic) IBOutlet UIView *headerView;
@@ -41,6 +43,15 @@
 {
     
 }
+
+#pragma mark - SegmentButtonEvent
+
+- (IBAction)groupPurchase:(UITapGestureRecognizer *)sender
+{
+    FLGroupListViewController *viewController = [[FLGroupListViewController alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
 
 #pragma mark - <UITableViewDataSource,UITableViewDelegate> method
 

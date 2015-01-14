@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FLGroupDetailViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lsd-Uj-0Wd">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2qO-7t-sgb">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="77B-ro-hLC">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="77B-ro-hLC" secondAttribute="bottom" id="5im-EB-N3I"/>
+                        <constraint firstItem="77B-ro-hLC" firstAttribute="leading" secondItem="2qO-7t-sgb" secondAttribute="leading" id="KHO-HT-TBN"/>
+                        <constraint firstAttribute="trailing" secondItem="77B-ro-hLC" secondAttribute="trailing" id="RSZ-01-Rs6"/>
+                        <constraint firstItem="77B-ro-hLC" firstAttribute="top" secondItem="2qO-7t-sgb" secondAttribute="top" id="lKb-MG-ACk"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Lsd-Uj-0Wd" secondAttribute="trailing" id="9UN-Py-HNj"/>
+                <constraint firstItem="77B-ro-hLC" firstAttribute="width" secondItem="Lsd-Uj-0Wd" secondAttribute="width" id="CA9-fI-q5n"/>
+                <constraint firstItem="Lsd-Uj-0Wd" firstAttribute="width" secondItem="2qO-7t-sgb" secondAttribute="width" id="DMV-Qw-lG5"/>
+                <constraint firstAttribute="bottom" secondItem="Lsd-Uj-0Wd" secondAttribute="bottom" id="N11-0l-LvM"/>
+                <constraint firstItem="Lsd-Uj-0Wd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="QMd-sW-wZJ"/>
+                <constraint firstItem="2qO-7t-sgb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="SFY-K0-qZZ"/>
+                <constraint firstItem="Lsd-Uj-0Wd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="VXI-1y-mtH"/>
+                <constraint firstItem="2qO-7t-sgb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="eAj-UB-G7j"/>
+                <constraint firstItem="77B-ro-hLC" firstAttribute="height" secondItem="Lsd-Uj-0Wd" secondAttribute="height" id="fjg-0b-eHh"/>
+                <constraint firstItem="Lsd-Uj-0Wd" firstAttribute="top" secondItem="2qO-7t-sgb" secondAttribute="bottom" constant="-600" id="vGU-Bj-OZe"/>
+            </constraints>
+            <point key="canvasLocation" x="328" y="394"/>
+        </view>
+    </objects>
+</document>

@@ -77,6 +77,13 @@
 		8469A8111A669463003CF3CF /* FLMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469A80C1A669463003CF3CF /* FLMainTableViewCell.xib */; };
 		8469A8121A669463003CF3CF /* FLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469A80E1A669463003CF3CF /* FLMainViewController.m */; };
 		8469A8131A669463003CF3CF /* FLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469A80F1A669463003CF3CF /* FLMainViewController.xib */; };
+		8469A8181A6699A2003CF3CF /* FLGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469A8161A6699A2003CF3CF /* FLGroupListViewController.m */; };
+		8469A8191A6699A2003CF3CF /* FLGroupListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469A8171A6699A2003CF3CF /* FLGroupListViewController.xib */; };
+		8469A81F1A669B5F003CF3CF /* FLGroupListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469A81D1A669B5F003CF3CF /* FLGroupListCell.m */; };
+		8469A8201A669B5F003CF3CF /* FLGroupListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469A81E1A669B5F003CF3CF /* FLGroupListCell.xib */; };
+		8469A8231A669F0C003CF3CF /* grouppurchase_list_contentbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8469A8221A669F0C003CF3CF /* grouppurchase_list_contentbg.png */; };
+		8469A8271A66BEFE003CF3CF /* FLGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469A8251A66BEFE003CF3CF /* FLGroupDetailViewController.m */; };
+		8469A8281A66BEFE003CF3CF /* FLGroupDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469A8261A66BEFE003CF3CF /* FLGroupDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -220,6 +227,16 @@
 		8469A80D1A669463003CF3CF /* FLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMainViewController.h; sourceTree = "<group>"; };
 		8469A80E1A669463003CF3CF /* FLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMainViewController.m; sourceTree = "<group>"; };
 		8469A80F1A669463003CF3CF /* FLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMainViewController.xib; sourceTree = "<group>"; };
+		8469A8151A6699A2003CF3CF /* FLGroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLGroupListViewController.h; sourceTree = "<group>"; };
+		8469A8161A6699A2003CF3CF /* FLGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLGroupListViewController.m; sourceTree = "<group>"; };
+		8469A8171A6699A2003CF3CF /* FLGroupListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLGroupListViewController.xib; sourceTree = "<group>"; };
+		8469A81C1A669B5F003CF3CF /* FLGroupListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLGroupListCell.h; sourceTree = "<group>"; };
+		8469A81D1A669B5F003CF3CF /* FLGroupListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLGroupListCell.m; sourceTree = "<group>"; };
+		8469A81E1A669B5F003CF3CF /* FLGroupListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLGroupListCell.xib; sourceTree = "<group>"; };
+		8469A8221A669F0C003CF3CF /* grouppurchase_list_contentbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grouppurchase_list_contentbg.png; sourceTree = "<group>"; };
+		8469A8241A66BEFE003CF3CF /* FLGroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLGroupDetailViewController.h; sourceTree = "<group>"; };
+		8469A8251A66BEFE003CF3CF /* FLGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLGroupDetailViewController.m; sourceTree = "<group>"; };
+		8469A8261A66BEFE003CF3CF /* FLGroupDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLGroupDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,8 +288,8 @@
 			children = (
 				6ECD9B1C1A65465E0043596E /* AppDelegate.h */,
 				6ECD9B1D1A65465E0043596E /* AppDelegate.m */,
+				8469A81A1A669B32003CF3CF /* Views */,
 				8469A8081A669463003CF3CF /* ViewControllers */,
-				6ECD9B441A65475D0043596E /* Views */,
 				6ECD9B431A65474E0043596E /* AppUtility */,
 				6ECD9B3E1A6546E40043596E /* ThirdPartFramework */,
 				6ECD9C081A6556130043596E /* UI */,
@@ -347,13 +364,6 @@
 				6ECD9BE21A654B7B0043596E /* YRZoomingView */,
 			);
 			path = AppUtility;
-			sourceTree = "<group>";
-		};
-		6ECD9B441A65475D0043596E /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		6ECD9B461A6548110043596E /* AFNetworking */ = {
@@ -628,6 +638,7 @@
 		6ECD9C081A6556130043596E /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				8469A8211A669F0C003CF3CF /* GroupPurchase */,
 				6ECD9C091A6556410043596E /* Global */,
 			);
 			path = UI;
@@ -646,6 +657,7 @@
 		8469A8081A669463003CF3CF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8469A8141A66994B003CF3CF /* FLGroupPurchaseViewController */,
 				8469A8091A669463003CF3CF /* FLMainViewController */,
 			);
 			path = ViewControllers;
@@ -662,6 +674,45 @@
 				8469A80F1A669463003CF3CF /* FLMainViewController.xib */,
 			);
 			path = FLMainViewController;
+			sourceTree = "<group>";
+		};
+		8469A8141A66994B003CF3CF /* FLGroupPurchaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8469A8151A6699A2003CF3CF /* FLGroupListViewController.h */,
+				8469A8161A6699A2003CF3CF /* FLGroupListViewController.m */,
+				8469A8171A6699A2003CF3CF /* FLGroupListViewController.xib */,
+				8469A8241A66BEFE003CF3CF /* FLGroupDetailViewController.h */,
+				8469A8251A66BEFE003CF3CF /* FLGroupDetailViewController.m */,
+				8469A8261A66BEFE003CF3CF /* FLGroupDetailViewController.xib */,
+			);
+			path = FLGroupPurchaseViewController;
+			sourceTree = "<group>";
+		};
+		8469A81A1A669B32003CF3CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8469A81B1A669B32003CF3CF /* Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8469A81B1A669B32003CF3CF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8469A81C1A669B5F003CF3CF /* FLGroupListCell.h */,
+				8469A81D1A669B5F003CF3CF /* FLGroupListCell.m */,
+				8469A81E1A669B5F003CF3CF /* FLGroupListCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8469A8211A669F0C003CF3CF /* GroupPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				8469A8221A669F0C003CF3CF /* grouppurchase_list_contentbg.png */,
+			);
+			path = GroupPurchase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -744,6 +795,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8469A8231A669F0C003CF3CF /* grouppurchase_list_contentbg.png in Resources */,
 				6ECD9B7D1A6548110043596E /* Checkmark.png in Resources */,
 				8469A8111A669463003CF3CF /* FLMainTableViewCell.xib in Resources */,
 				6ECD9C0D1A6559800043596E /* logo.png in Resources */,
@@ -752,7 +804,10 @@
 				6ECD9BEF1A654B7B0043596E /* MJRefresh.bundle in Resources */,
 				6ECD9BE81A654B7B0043596E /* down_dark.png in Resources */,
 				6ECD9B291A65465E0043596E /* LaunchScreen.xib in Resources */,
+				8469A8191A6699A2003CF3CF /* FLGroupListViewController.xib in Resources */,
+				8469A8201A669B5F003CF3CF /* FLGroupListCell.xib in Resources */,
 				8469A8131A669463003CF3CF /* FLMainViewController.xib in Resources */,
+				8469A8281A66BEFE003CF3CF /* FLGroupDetailViewController.xib in Resources */,
 				6ECD9C141A655F7C0043596E /* placeholder.jpg in Resources */,
 				6ECD9B261A65465E0043596E /* Images.xcassets in Resources */,
 			);
@@ -779,10 +834,12 @@
 				6ECD9B1E1A65465E0043596E /* AppDelegate.m in Sources */,
 				6ECD9B821A6548110043596E /* UIButton+AFNetworking.m in Sources */,
 				6ECD9BFE1A654B7B0043596E /* UIView+Border.m in Sources */,
+				8469A81F1A669B5F003CF3CF /* FLGroupListCell.m in Sources */,
 				6ECD9BFD1A654B7B0043596E /* UIImage+Loader.m in Sources */,
 				6ECD9BE71A654B7B0043596E /* NBCallAlbumOrCamera.m in Sources */,
 				6ECD9BE51A654B7B0043596E /* BUIControl.m in Sources */,
 				6ECD9BF61A654B7B0043596E /* UIView+Extension.m in Sources */,
+				8469A8181A6699A2003CF3CF /* FLGroupListViewController.m in Sources */,
 				6ECD9BFB1A654B7B0043596E /* SwipeView.m in Sources */,
 				6ECD9BF41A654B7B0043596E /* UIScrollView+Extension.m in Sources */,
 				6ECD9B741A6548110043596E /* AFHTTPRequestOperationManager.m in Sources */,
@@ -800,6 +857,7 @@
 				6ECD9B831A6548110043596E /* UIImageView+AFNetworking.m in Sources */,
 				6ECD9BFF1A654B7B0043596E /* UIView+ModifyFrame.m in Sources */,
 				6ECD9BF01A654B7B0043596E /* MJRefreshBaseView.m in Sources */,
+				8469A8271A66BEFE003CF3CF /* FLGroupDetailViewController.m in Sources */,
 				6ECD9BE91A654B7B0043596E /* DropDownListView.m in Sources */,
 				6ECD9B751A6548110043596E /* AFHTTPSessionManager.m in Sources */,
 				6ECD9BED1A654B7B0043596E /* ETActivityIndicatorView.m in Sources */,
