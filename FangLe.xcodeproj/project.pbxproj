@@ -18,7 +18,6 @@
 		6ECD9B261A65465E0043596E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECD9B251A65465E0043596E /* Images.xcassets */; };
 		6ECD9B291A65465E0043596E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ECD9B271A65465E0043596E /* LaunchScreen.xib */; };
 		6ECD9B351A65465E0043596E /* FangLeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD9B341A65465E0043596E /* FangLeTests.m */; };
-		6ECD9B421A6547300043596E /* FLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD9B411A6547300043596E /* FLMainViewController.m */; };
 		6ECD9B731A6548110043596E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD9B481A6548110043596E /* AFHTTPRequestOperation.m */; };
 		6ECD9B741A6548110043596E /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD9B4A1A6548110043596E /* AFHTTPRequestOperationManager.m */; };
 		6ECD9B751A6548110043596E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD9B4C1A6548110043596E /* AFHTTPSessionManager.m */; };
@@ -77,12 +76,20 @@
 		6ECD9C001A654B7B0043596E /* YRSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD9BE11A654B7B0043596E /* YRSegmentControl.m */; };
 		6ECD9C011A654B7B0043596E /* YRZoomingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD9BE41A654B7B0043596E /* YRZoomingView.m */; };
 		6ECD9C051A654C900043596E /* AppUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD9C041A654C900043596E /* AppUtility.m */; };
-		6ECD9C071A65510E0043596E /* FLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ECD9C061A65510E0043596E /* FLMainViewController.xib */; };
 		6ECD9C0B1A6556410043596E /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECD9C0A1A6556410043596E /* search.png */; };
 		6ECD9C0D1A6559800043596E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECD9C0C1A6559800043596E /* logo.png */; };
-		6ECD9C111A655EE10043596E /* FLMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD9C0F1A655EE10043596E /* FLMainTableViewCell.m */; };
-		6ECD9C121A655EE10043596E /* FLMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ECD9C101A655EE10043596E /* FLMainTableViewCell.xib */; };
 		6ECD9C141A655F7C0043596E /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6ECD9C131A655F7C0043596E /* placeholder.jpg */; };
+		8469A8101A669463003CF3CF /* FLMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469A80B1A669463003CF3CF /* FLMainTableViewCell.m */; };
+		8469A8121A669463003CF3CF /* FLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469A80E1A669463003CF3CF /* FLMainViewController.m */; };
+		8469A8131A669463003CF3CF /* FLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469A80F1A669463003CF3CF /* FLMainViewController.xib */; };
+		8469A8181A6699A2003CF3CF /* FLGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469A8161A6699A2003CF3CF /* FLGroupListViewController.m */; };
+		8469A8191A6699A2003CF3CF /* FLGroupListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469A8171A6699A2003CF3CF /* FLGroupListViewController.xib */; };
+		8469A81F1A669B5F003CF3CF /* FLGroupListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469A81D1A669B5F003CF3CF /* FLGroupListCell.m */; };
+		8469A8201A669B5F003CF3CF /* FLGroupListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469A81E1A669B5F003CF3CF /* FLGroupListCell.xib */; };
+		8469A8231A669F0C003CF3CF /* grouppurchase_list_contentbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8469A8221A669F0C003CF3CF /* grouppurchase_list_contentbg.png */; };
+		8469A8271A66BEFE003CF3CF /* FLGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469A8251A66BEFE003CF3CF /* FLGroupDetailViewController.m */; };
+		8469A8281A66BEFE003CF3CF /* FLGroupDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469A8261A66BEFE003CF3CF /* FLGroupDetailViewController.xib */; };
+		8469A8291A66CD34003CF3CF /* FLMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469A80C1A669463003CF3CF /* FLMainTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,8 +119,6 @@
 		6ECD9B2E1A65465E0043596E /* FangLeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FangLeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECD9B331A65465E0043596E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ECD9B341A65465E0043596E /* FangLeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FangLeTests.m; sourceTree = "<group>"; };
-		6ECD9B401A6547300043596E /* FLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMainViewController.h; sourceTree = "<group>"; };
-		6ECD9B411A6547300043596E /* FLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMainViewController.m; sourceTree = "<group>"; };
 		6ECD9B471A6548110043596E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		6ECD9B481A6548110043596E /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		6ECD9B491A6548110043596E /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -225,13 +230,25 @@
 		6ECD9C021A654C380043596E /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
 		6ECD9C031A654C900043596E /* AppUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtility.h; sourceTree = "<group>"; };
 		6ECD9C041A654C900043596E /* AppUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtility.m; sourceTree = "<group>"; };
-		6ECD9C061A65510E0043596E /* FLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMainViewController.xib; sourceTree = "<group>"; };
 		6ECD9C0A1A6556410043596E /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		6ECD9C0C1A6559800043596E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		6ECD9C0E1A655EE10043596E /* FLMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMainTableViewCell.h; sourceTree = "<group>"; };
-		6ECD9C0F1A655EE10043596E /* FLMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMainTableViewCell.m; sourceTree = "<group>"; };
-		6ECD9C101A655EE10043596E /* FLMainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMainTableViewCell.xib; sourceTree = "<group>"; };
 		6ECD9C131A655F7C0043596E /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		8469A80A1A669463003CF3CF /* FLMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMainTableViewCell.h; sourceTree = "<group>"; };
+		8469A80B1A669463003CF3CF /* FLMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMainTableViewCell.m; sourceTree = "<group>"; };
+		8469A80C1A669463003CF3CF /* FLMainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMainTableViewCell.xib; sourceTree = "<group>"; };
+		8469A80D1A669463003CF3CF /* FLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMainViewController.h; sourceTree = "<group>"; };
+		8469A80E1A669463003CF3CF /* FLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMainViewController.m; sourceTree = "<group>"; };
+		8469A80F1A669463003CF3CF /* FLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMainViewController.xib; sourceTree = "<group>"; };
+		8469A8151A6699A2003CF3CF /* FLGroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLGroupListViewController.h; sourceTree = "<group>"; };
+		8469A8161A6699A2003CF3CF /* FLGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLGroupListViewController.m; sourceTree = "<group>"; };
+		8469A8171A6699A2003CF3CF /* FLGroupListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLGroupListViewController.xib; sourceTree = "<group>"; };
+		8469A81C1A669B5F003CF3CF /* FLGroupListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLGroupListCell.h; sourceTree = "<group>"; };
+		8469A81D1A669B5F003CF3CF /* FLGroupListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLGroupListCell.m; sourceTree = "<group>"; };
+		8469A81E1A669B5F003CF3CF /* FLGroupListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLGroupListCell.xib; sourceTree = "<group>"; };
+		8469A8221A669F0C003CF3CF /* grouppurchase_list_contentbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grouppurchase_list_contentbg.png; sourceTree = "<group>"; };
+		8469A8241A66BEFE003CF3CF /* FLGroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLGroupDetailViewController.h; sourceTree = "<group>"; };
+		8469A8251A66BEFE003CF3CF /* FLGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLGroupDetailViewController.m; sourceTree = "<group>"; };
+		8469A8261A66BEFE003CF3CF /* FLGroupDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLGroupDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,8 +312,8 @@
 			children = (
 				6ECD9B1C1A65465E0043596E /* AppDelegate.h */,
 				6ECD9B1D1A65465E0043596E /* AppDelegate.m */,
-				6ECD9B441A65475D0043596E /* Views */,
-				6ECD9B3F1A6547300043596E /* FLMainViewController */,
+				8469A81A1A669B32003CF3CF /* Views */,
+				8469A8081A669463003CF3CF /* ViewControllers */,
 				6ECD9B431A65474E0043596E /* AppUtility */,
 				6ECD9B3E1A6546E40043596E /* ThirdPartFramework */,
 				6ECD9C081A6556130043596E /* UI */,
@@ -346,20 +363,6 @@
 			path = ThirdPartFramework;
 			sourceTree = "<group>";
 		};
-		6ECD9B3F1A6547300043596E /* FLMainViewController */ = {
-			isa = PBXGroup;
-			children = (
-				6ECD9B401A6547300043596E /* FLMainViewController.h */,
-				6ECD9B411A6547300043596E /* FLMainViewController.m */,
-				6ECD9C061A65510E0043596E /* FLMainViewController.xib */,
-				6ECD9C0E1A655EE10043596E /* FLMainTableViewCell.h */,
-				6ECD9C0F1A655EE10043596E /* FLMainTableViewCell.m */,
-				6ECD9C101A655EE10043596E /* FLMainTableViewCell.xib */,
-			);
-			name = FLMainViewController;
-			path = ViewControllers/FLMainViewController;
-			sourceTree = "<group>";
-		};
 		6ECD9B431A65474E0043596E /* AppUtility */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,13 +388,6 @@
 				6ECD9BE21A654B7B0043596E /* YRZoomingView */,
 			);
 			path = AppUtility;
-			sourceTree = "<group>";
-		};
-		6ECD9B441A65475D0043596E /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		6ECD9B461A6548110043596E /* AFNetworking */ = {
@@ -667,6 +663,7 @@
 			isa = PBXGroup;
 			children = (
 				6E5E66F31A66AD39008BAB26 /* MainVC */,
+				8469A8211A669F0C003CF3CF /* GroupPurchase */,
 				6ECD9C091A6556410043596E /* Global */,
 			);
 			path = UI;
@@ -681,6 +678,67 @@
 				6ECD9C0C1A6559800043596E /* logo.png */,
 			);
 			path = Global;
+			sourceTree = "<group>";
+		};
+		8469A8081A669463003CF3CF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8469A8141A66994B003CF3CF /* FLGroupPurchaseViewController */,
+				8469A8091A669463003CF3CF /* FLMainViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8469A8091A669463003CF3CF /* FLMainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8469A80A1A669463003CF3CF /* FLMainTableViewCell.h */,
+				8469A80B1A669463003CF3CF /* FLMainTableViewCell.m */,
+				8469A80C1A669463003CF3CF /* FLMainTableViewCell.xib */,
+				8469A80D1A669463003CF3CF /* FLMainViewController.h */,
+				8469A80E1A669463003CF3CF /* FLMainViewController.m */,
+				8469A80F1A669463003CF3CF /* FLMainViewController.xib */,
+			);
+			path = FLMainViewController;
+			sourceTree = "<group>";
+		};
+		8469A8141A66994B003CF3CF /* FLGroupPurchaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8469A8151A6699A2003CF3CF /* FLGroupListViewController.h */,
+				8469A8161A6699A2003CF3CF /* FLGroupListViewController.m */,
+				8469A8171A6699A2003CF3CF /* FLGroupListViewController.xib */,
+				8469A8241A66BEFE003CF3CF /* FLGroupDetailViewController.h */,
+				8469A8251A66BEFE003CF3CF /* FLGroupDetailViewController.m */,
+				8469A8261A66BEFE003CF3CF /* FLGroupDetailViewController.xib */,
+			);
+			path = FLGroupPurchaseViewController;
+			sourceTree = "<group>";
+		};
+		8469A81A1A669B32003CF3CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8469A81B1A669B32003CF3CF /* Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8469A81B1A669B32003CF3CF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8469A81C1A669B5F003CF3CF /* FLGroupListCell.h */,
+				8469A81D1A669B5F003CF3CF /* FLGroupListCell.m */,
+				8469A81E1A669B5F003CF3CF /* FLGroupListCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8469A8211A669F0C003CF3CF /* GroupPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				8469A8221A669F0C003CF3CF /* grouppurchase_list_contentbg.png */,
+			);
+			path = GroupPurchase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -763,10 +821,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ECD9C071A65510E0043596E /* FLMainViewController.xib in Resources */,
 				6E5E66FF1A66B6AA008BAB26 /* user_icon.png in Resources */,
 				6ECD9B7D1A6548110043596E /* Checkmark.png in Resources */,
 				6E5E66F81A66AD39008BAB26 /* housing_btn.png in Resources */,
+				8469A8231A669F0C003CF3CF /* grouppurchase_list_contentbg.png in Resources */,
+				6ECD9B7D1A6548110043596E /* Checkmark.png in Resources */,
 				6ECD9C0D1A6559800043596E /* logo.png in Resources */,
 				6ECD9BEA1A654B7B0043596E /* pullDownArrow.png in Resources */,
 				6ECD9C0B1A6556410043596E /* search.png in Resources */,
@@ -774,9 +833,13 @@
 				6E5E66FA1A66AD39008BAB26 /* purchase_btn.png in Resources */,
 				6E5E66FD1A66B4EE008BAB26 /* right_arrow.png in Resources */,
 				6E5E66F91A66AD39008BAB26 /* new_site_btn.png in Resources */,
+				8469A8291A66CD34003CF3CF /* FLMainTableViewCell.xib in Resources */,
 				6ECD9BE81A654B7B0043596E /* down_dark.png in Resources */,
 				6ECD9B291A65465E0043596E /* LaunchScreen.xib in Resources */,
-				6ECD9C121A655EE10043596E /* FLMainTableViewCell.xib in Resources */,
+				8469A8191A6699A2003CF3CF /* FLGroupListViewController.xib in Resources */,
+				8469A8201A669B5F003CF3CF /* FLGroupListCell.xib in Resources */,
+				8469A8131A669463003CF3CF /* FLMainViewController.xib in Resources */,
+				8469A8281A66BEFE003CF3CF /* FLGroupDetailViewController.xib in Resources */,
 				6ECD9C141A655F7C0043596E /* placeholder.jpg in Resources */,
 				6ECD9B261A65465E0043596E /* Images.xcassets in Resources */,
 				6E5E66FB1A66AD39008BAB26 /* second_hand_btn.png in Resources */,
@@ -804,10 +867,12 @@
 				6ECD9B1E1A65465E0043596E /* AppDelegate.m in Sources */,
 				6ECD9B821A6548110043596E /* UIButton+AFNetworking.m in Sources */,
 				6ECD9BFE1A654B7B0043596E /* UIView+Border.m in Sources */,
+				8469A81F1A669B5F003CF3CF /* FLGroupListCell.m in Sources */,
 				6ECD9BFD1A654B7B0043596E /* UIImage+Loader.m in Sources */,
 				6ECD9BE71A654B7B0043596E /* NBCallAlbumOrCamera.m in Sources */,
 				6ECD9BE51A654B7B0043596E /* BUIControl.m in Sources */,
 				6ECD9BF61A654B7B0043596E /* UIView+Extension.m in Sources */,
+				8469A8181A6699A2003CF3CF /* FLGroupListViewController.m in Sources */,
 				6ECD9BFB1A654B7B0043596E /* SwipeView.m in Sources */,
 				6ECD9BF41A654B7B0043596E /* UIScrollView+Extension.m in Sources */,
 				6ECD9B741A6548110043596E /* AFHTTPRequestOperationManager.m in Sources */,
@@ -825,6 +890,7 @@
 				6ECD9B831A6548110043596E /* UIImageView+AFNetworking.m in Sources */,
 				6ECD9BFF1A654B7B0043596E /* UIView+ModifyFrame.m in Sources */,
 				6ECD9BF01A654B7B0043596E /* MJRefreshBaseView.m in Sources */,
+				8469A8271A66BEFE003CF3CF /* FLGroupDetailViewController.m in Sources */,
 				6ECD9BE91A654B7B0043596E /* DropDownListView.m in Sources */,
 				6ECD9B751A6548110043596E /* AFHTTPSessionManager.m in Sources */,
 				6ECD9BED1A654B7B0043596E /* ETActivityIndicatorView.m in Sources */,
@@ -839,12 +905,12 @@
 				6ECD9BF81A654B7B0043596E /* NBNetworkEngine.m in Sources */,
 				6ECD9C001A654B7B0043596E /* YRSegmentControl.m in Sources */,
 				6ECD9B1B1A65465E0043596E /* main.m in Sources */,
-				6ECD9B421A6547300043596E /* FLMainViewController.m in Sources */,
 				6ECD9BF51A654B7B0043596E /* UIScrollView+MJRefresh.m in Sources */,
-				6ECD9C111A655EE10043596E /* FLMainTableViewCell.m in Sources */,
 				6ECD9B7E1A6548110043596E /* MBProgressHUD.m in Sources */,
 				6ECD9B801A6548110043596E /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				8469A8121A669463003CF3CF /* FLMainViewController.m in Sources */,
 				6ECD9B7F1A6548110043596E /* AFNetworkActivityIndicatorManager.m in Sources */,
+				8469A8101A669463003CF3CF /* FLMainTableViewCell.m in Sources */,
 				6ECD9BFA1A654B7B0043596E /* Reachability.m in Sources */,
 				6ECD9BF71A654B7B0043596E /* FLBaseViewController.m in Sources */,
 			);

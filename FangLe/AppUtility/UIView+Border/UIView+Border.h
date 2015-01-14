@@ -14,4 +14,6 @@
 
 - (void)addSimpleReflection;
 
+- (void)showFrameBug;
+
 @end

@@ -35,4 +35,10 @@ const CGFloat kReflectDistance = 150.0f;
     [[self layer] addSublayer:reflectionLayer];
 }
 
+- (void)showFrameBug
+{
+    [self.layer setBorderColor:[UIColor redColor].CGColor];
+    [self.layer setBorderWidth:1.0f];
+}
+
 @end

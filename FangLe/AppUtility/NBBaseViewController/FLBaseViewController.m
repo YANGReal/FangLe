@@ -36,6 +36,11 @@
 	// Do any additional setup after loading the view.
 }
 
+- (void)dealloc
+{
+    NSLog(@"--->%@ dealloc",NSStringFromClass([self class]));
+}
+
 
 
 - (void)setupLeftBarButtonItem
