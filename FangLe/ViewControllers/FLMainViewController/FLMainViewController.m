@@ -8,7 +8,7 @@
 
 #import "FLMainViewController.h"
 #import "FLMainTableViewCell.h"
-@interface FLMainViewController ()<UITableViewDataSource,UITableViewDelegate>
+@interface FLMainViewController ()<UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate>
 @property (weak , nonatomic) IBOutlet UITableView *tableView;
 @property (weak , nonatomic) IBOutlet UIView *headerView;
 @property (weak , nonatomic) IBOutlet UIView *titleView;
@@ -28,10 +28,11 @@
     UIButton *button = [AppUtility generateButtonWithImageName:@"search.png"];
     [button addTarget:self action:@selector(searchButtonClicked) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
-    self.titleView.backgroundColor = CLEAR_COLOR;
+
     self.navigationItem.titleView = self.titleView;
-    self.headerView.backgroundColor = WHITE_COLOR;
+
     self.tableView.tableHeaderView = self.headerView;
+    self.tableView.tableFooterView = [UIView new];
     
     UINib *nib = [UINib nibWithNibName:@"FLMainTableViewCell" bundle:nil];
     [self.tableView registerNib:nib forCellReuseIdentifier:@"cell"];
@@ -50,21 +51,52 @@
     return 10;
 }
 
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    UIView *view = [[UIView alloc] initWithFrame:RECT(0, 0, self.view.width, 20)];
+    [view setBackgroundColor:CLEAR_COLOR];
+    
+    return view;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView
          cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *identifier = @"cell";
     FLMainTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
-    return cell;
     
+    [cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
+    
+    return cell;
 }
 
-
-- (CGFloat)tableView:(UITableView *)tableView
-heightForRowAtIndexPath:(NSIndexPath *)indexPath
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 130;
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
+
+-(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if ([cell respondsToSelector:@selector(setSeparatorInset:)]) {
+        [cell setSeparatorInset:UIEdgeInsetsZero];
+    }
+    
+    if ([cell respondsToSelector:@selector(setLayoutMargins:)]) {
+        [cell setLayoutMargins:UIEdgeInsetsZero];
+    }
+}
+
+-(void)viewDidLayoutSubviews
+{
+    if ([self.tableView respondsToSelector:@selector(setSeparatorInset:)]) {
+        [self.tableView setSeparatorInset:UIEdgeInsetsMake(0,0,0,0)];
+    }
+    
+    if ([self.tableView respondsToSelector:@selector(setLayoutMargins:)]) {
+        [self.tableView setLayoutMargins:UIEdgeInsetsMake(0,0,0,0)];
+    }
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

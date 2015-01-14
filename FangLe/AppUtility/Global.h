@@ -81,14 +81,13 @@
 #define BLACK_COLOR   [UIColor blackColor]                    //黑色
 #define CLEAR_COLOR   [UIColor clearColor]                    //透明色
 
-#define C1            [UIColor whiteColor]                    //白色
-#define C2            [UIColor colorWithHexString:@"#c3c3c3"] //浅灰色
-#define C3            [UIColor colorWithHexString:@"#828282"] //灰色
-#define C4            [UIColor colorWithHexString:@"#565656"] //深灰色
-#define C5            [UIColor colorWithHexString:@"#000000"] //黑色
-#define C6            [UIColor colorWithHexString:@"#6bb600"] //绿色
-#define C7            [UIColor colorWithHexString:@"#5c9d00"] //深绿色
-#define C8            [UIColor colorWithHexString:@"#bcdb9f"] //浅绿色
+
+#define LIGHT_GRAY            [UIColor colorWithHexString:@"#c3c3c3"] //浅灰色
+#define GRAY_COLOR            [UIColor colorWithHexString:@"#828282"] //灰色
+#define DEEP_GRAY            [UIColor colorWithHexString:@"#565656"] //深灰色
+#define GREEN_COLOR            [UIColor colorWithHexString:@"#6bb600"] //绿色
+#define DEEP_GREEN            [UIColor colorWithHexString:@"#5c9d00"] //深绿色
+#define LIGHT_GREEN            [UIColor colorWithHexString:@"#bcdb9f"] //浅绿色
 
 #define NAVBAR_COLOR  [UIColor colorWithHexString:@"#f39800"]//导航栏颜色
 

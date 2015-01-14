@@ -100,7 +100,7 @@
         }
         
         self.bottomLine = [[UIView alloc] initWithFrame:RECT(0, self.frame.size.height-1, self.frame.size.width, 0.5)];
-        self.bottomLine.backgroundColor = C2;
+        self.bottomLine.backgroundColor = GRAY_COLOR;
         [self addSubview:self.bottomLine];
         
     }
