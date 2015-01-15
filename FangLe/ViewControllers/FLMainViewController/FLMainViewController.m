@@ -9,19 +9,10 @@
 #import "FLMainViewController.h"
 #import "FLMainTableViewCell.h"
 #import "FLGroupListViewController.h"
+
 @interface FLMainViewController ()<UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate>
 
 
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-@interface FLMainViewController ()<UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate>
-
-=======
->>>>>>> FETCH_HEAD
-=======
-
->>>>>>> FETCH_HEAD
 @property (weak , nonatomic) IBOutlet UITableView *tableView;
 @property (weak , nonatomic) IBOutlet UIView *headerView;
 @property (weak , nonatomic) IBOutlet UIView *titleView;
@@ -59,22 +50,7 @@
 - (void)setupViews
 {
     self.title = @"房乐网";
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-=======
->>>>>>> FETCH_HEAD
-
-    UIButton *button = [AppUtility generateButtonWithImageName:@"search.png"];
-    [button addTarget:self action:@selector(searchButtonClicked) forControlEvents:UIControlEventTouchUpInside];
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
-
-
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
-=======
->>>>>>> FETCH_HEAD
     UIButton *searchbutton = [AppUtility generateButtonWithImageName:@"search.png"];
     [searchbutton addTarget:self action:@selector(searchButtonClicked) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:searchbutton];
@@ -82,33 +58,12 @@
     UIButton *userButton = [AppUtility generateButtonWithImageName:@"user_icon.png"];
     [userButton addTarget:self action:@selector(userButtonClicked) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:userButton];
-    
-<<<<<<< HEAD
-=======
-    
-    
-    self.titleView.backgroundColor = CLEAR_COLOR;
 
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
-=======
->>>>>>> FETCH_HEAD
+
     self.navigationItem.titleView = self.titleView;
 
     self.tableView.tableHeaderView = self.headerView;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-   // self.tableView.tableFooterView = [UIView new];
-    
-
->>>>>>> FETCH_HEAD
-=======
-   // self.tableView.tableFooterView = [UIView new];
-    
-
->>>>>>> FETCH_HEAD
     self.tableView.tableFooterView = self.moreButton;
 
     UINib *nib = [UINib nibWithNibName:@"FLMainTableViewCell" bundle:nil];

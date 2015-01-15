@@ -20,19 +20,10 @@
 @implementation FLMainTableViewCell
 
 - (void)awakeFromNib {
-    // Initialization code
     self.line = [[UIView alloc] init];
-<<<<<<< HEAD
-<<<<<<< HEAD
-    self.line.backgroundColor = LIGHT_GRAY;
-=======
     self.line.backgroundColor =LIGHT_GRAY;
->>>>>>> FETCH_HEAD
-=======
-    self.line.backgroundColor =LIGHT_GRAY;
->>>>>>> FETCH_HEAD
-    [self.contentView addSubview:self.line];
     
+    [self.contentView addSubview:self.line];
 }
 
 - (void)layoutSubviews
@@ -40,8 +31,6 @@
     self.titleLabel.x = self.addrLabel.x = self.countLabel.x = self.descLabel.x = self.coverView.right+10;
     self.titleLabel.width = self.addrLabel.width = self.countLabel.width = self.descLabel.width = self.width-self.titleLabel.x;
     self.line.frame = RECT(0, self.height-1, self.width, 0.5);
-    
-    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

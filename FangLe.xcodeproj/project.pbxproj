@@ -13,7 +13,6 @@
 		6E5E66FB1A66AD39008BAB26 /* second_hand_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5E66F71A66AD39008BAB26 /* second_hand_btn.png */; };
 		6E5E66FD1A66B4EE008BAB26 /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5E66FC1A66B4EE008BAB26 /* right_arrow.png */; };
 		6E5E66FF1A66B6AA008BAB26 /* user_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5E66FE1A66B6AA008BAB26 /* user_icon.png */; };
-		6EC4B31C1A67DAC200503F98 /* FLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC4B31B1A67DAC200503F98 /* FLMainViewController.xib */; };
 		6EC4B31E1A67DB6A00503F98 /* FLMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC4B31D1A67DB6A00503F98 /* FLMainTableViewCell.xib */; };
 		6ECD9B1B1A65465E0043596E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD9B1A1A65465E0043596E /* main.m */; };
 		6ECD9B1E1A65465E0043596E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD9B1D1A65465E0043596E /* AppDelegate.m */; };
@@ -90,6 +89,7 @@
 		8469A8231A669F0C003CF3CF /* grouppurchase_list_contentbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8469A8221A669F0C003CF3CF /* grouppurchase_list_contentbg.png */; };
 		8469A8271A66BEFE003CF3CF /* FLGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469A8251A66BEFE003CF3CF /* FLGroupDetailViewController.m */; };
 		8469A8281A66BEFE003CF3CF /* FLGroupDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469A8261A66BEFE003CF3CF /* FLGroupDetailViewController.xib */; };
+		A1E798B41A680254007E0F81 /* FLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1E798B31A680254007E0F81 /* FLMainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,7 +109,6 @@
 		6E5E66F71A66AD39008BAB26 /* second_hand_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second_hand_btn.png; sourceTree = "<group>"; };
 		6E5E66FC1A66B4EE008BAB26 /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_arrow.png; sourceTree = "<group>"; };
 		6E5E66FE1A66B6AA008BAB26 /* user_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_icon.png; sourceTree = "<group>"; };
-		6EC4B31B1A67DAC200503F98 /* FLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMainViewController.xib; sourceTree = "<group>"; };
 		6EC4B31D1A67DB6A00503F98 /* FLMainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMainTableViewCell.xib; sourceTree = "<group>"; };
 		6ECD9B151A65465E0043596E /* FangLe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FangLe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECD9B191A65465E0043596E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -249,6 +248,7 @@
 		8469A8241A66BEFE003CF3CF /* FLGroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLGroupDetailViewController.h; sourceTree = "<group>"; };
 		8469A8251A66BEFE003CF3CF /* FLGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLGroupDetailViewController.m; sourceTree = "<group>"; };
 		8469A8261A66BEFE003CF3CF /* FLGroupDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLGroupDetailViewController.xib; sourceTree = "<group>"; };
+		A1E798B31A680254007E0F81 /* FLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -697,7 +697,7 @@
 				6EC4B31D1A67DB6A00503F98 /* FLMainTableViewCell.xib */,
 				8469A80D1A669463003CF3CF /* FLMainViewController.h */,
 				8469A80E1A669463003CF3CF /* FLMainViewController.m */,
-				6EC4B31B1A67DAC200503F98 /* FLMainViewController.xib */,
+				A1E798B31A680254007E0F81 /* FLMainViewController.xib */,
 			);
 			path = FLMainViewController;
 			sourceTree = "<group>";
@@ -826,9 +826,9 @@
 				6E5E66F81A66AD39008BAB26 /* housing_btn.png in Resources */,
 				8469A8231A669F0C003CF3CF /* grouppurchase_list_contentbg.png in Resources */,
 				6ECD9B7D1A6548110043596E /* Checkmark.png in Resources */,
+				A1E798B41A680254007E0F81 /* FLMainViewController.xib in Resources */,
 				6ECD9C0D1A6559800043596E /* logo.png in Resources */,
 				6ECD9BEA1A654B7B0043596E /* pullDownArrow.png in Resources */,
-				6EC4B31C1A67DAC200503F98 /* FLMainViewController.xib in Resources */,
 				6ECD9C0B1A6556410043596E /* search.png in Resources */,
 				6ECD9BEF1A654B7B0043596E /* MJRefresh.bundle in Resources */,
 				6E5E66FA1A66AD39008BAB26 /* purchase_btn.png in Resources */,
