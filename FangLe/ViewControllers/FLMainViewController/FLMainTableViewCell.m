@@ -22,7 +22,11 @@
 - (void)awakeFromNib {
     // Initialization code
     self.line = [[UIView alloc] init];
+<<<<<<< HEAD
     self.line.backgroundColor = LIGHT_GRAY;
+=======
+    self.line.backgroundColor =LIGHT_GRAY;
+>>>>>>> FETCH_HEAD
     [self.contentView addSubview:self.line];
     
 }

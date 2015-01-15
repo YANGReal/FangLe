@@ -13,6 +13,8 @@
 		6E5E66FB1A66AD39008BAB26 /* second_hand_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5E66F71A66AD39008BAB26 /* second_hand_btn.png */; };
 		6E5E66FD1A66B4EE008BAB26 /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5E66FC1A66B4EE008BAB26 /* right_arrow.png */; };
 		6E5E66FF1A66B6AA008BAB26 /* user_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5E66FE1A66B6AA008BAB26 /* user_icon.png */; };
+		6EC4B31C1A67DAC200503F98 /* FLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC4B31B1A67DAC200503F98 /* FLMainViewController.xib */; };
+		6EC4B31E1A67DB6A00503F98 /* FLMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC4B31D1A67DB6A00503F98 /* FLMainTableViewCell.xib */; };
 		6ECD9B1B1A65465E0043596E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD9B1A1A65465E0043596E /* main.m */; };
 		6ECD9B1E1A65465E0043596E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD9B1D1A65465E0043596E /* AppDelegate.m */; };
 		6ECD9B261A65465E0043596E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECD9B251A65465E0043596E /* Images.xcassets */; };
@@ -81,7 +83,6 @@
 		6ECD9C141A655F7C0043596E /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6ECD9C131A655F7C0043596E /* placeholder.jpg */; };
 		8469A8101A669463003CF3CF /* FLMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469A80B1A669463003CF3CF /* FLMainTableViewCell.m */; };
 		8469A8121A669463003CF3CF /* FLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469A80E1A669463003CF3CF /* FLMainViewController.m */; };
-		8469A8131A669463003CF3CF /* FLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469A80F1A669463003CF3CF /* FLMainViewController.xib */; };
 		8469A8181A6699A2003CF3CF /* FLGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469A8161A6699A2003CF3CF /* FLGroupListViewController.m */; };
 		8469A8191A6699A2003CF3CF /* FLGroupListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469A8171A6699A2003CF3CF /* FLGroupListViewController.xib */; };
 		8469A81F1A669B5F003CF3CF /* FLGroupListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469A81D1A669B5F003CF3CF /* FLGroupListCell.m */; };
@@ -89,7 +90,6 @@
 		8469A8231A669F0C003CF3CF /* grouppurchase_list_contentbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8469A8221A669F0C003CF3CF /* grouppurchase_list_contentbg.png */; };
 		8469A8271A66BEFE003CF3CF /* FLGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469A8251A66BEFE003CF3CF /* FLGroupDetailViewController.m */; };
 		8469A8281A66BEFE003CF3CF /* FLGroupDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469A8261A66BEFE003CF3CF /* FLGroupDetailViewController.xib */; };
-		8469A8291A66CD34003CF3CF /* FLMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469A80C1A669463003CF3CF /* FLMainTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +109,8 @@
 		6E5E66F71A66AD39008BAB26 /* second_hand_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second_hand_btn.png; sourceTree = "<group>"; };
 		6E5E66FC1A66B4EE008BAB26 /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_arrow.png; sourceTree = "<group>"; };
 		6E5E66FE1A66B6AA008BAB26 /* user_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_icon.png; sourceTree = "<group>"; };
+		6EC4B31B1A67DAC200503F98 /* FLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMainViewController.xib; sourceTree = "<group>"; };
+		6EC4B31D1A67DB6A00503F98 /* FLMainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMainTableViewCell.xib; sourceTree = "<group>"; };
 		6ECD9B151A65465E0043596E /* FangLe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FangLe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECD9B191A65465E0043596E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ECD9B1A1A65465E0043596E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -235,10 +237,8 @@
 		6ECD9C131A655F7C0043596E /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
 		8469A80A1A669463003CF3CF /* FLMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMainTableViewCell.h; sourceTree = "<group>"; };
 		8469A80B1A669463003CF3CF /* FLMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMainTableViewCell.m; sourceTree = "<group>"; };
-		8469A80C1A669463003CF3CF /* FLMainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMainTableViewCell.xib; sourceTree = "<group>"; };
 		8469A80D1A669463003CF3CF /* FLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMainViewController.h; sourceTree = "<group>"; };
 		8469A80E1A669463003CF3CF /* FLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMainViewController.m; sourceTree = "<group>"; };
-		8469A80F1A669463003CF3CF /* FLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMainViewController.xib; sourceTree = "<group>"; };
 		8469A8151A6699A2003CF3CF /* FLGroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLGroupListViewController.h; sourceTree = "<group>"; };
 		8469A8161A6699A2003CF3CF /* FLGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLGroupListViewController.m; sourceTree = "<group>"; };
 		8469A8171A6699A2003CF3CF /* FLGroupListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLGroupListViewController.xib; sourceTree = "<group>"; };
@@ -694,10 +694,10 @@
 			children = (
 				8469A80A1A669463003CF3CF /* FLMainTableViewCell.h */,
 				8469A80B1A669463003CF3CF /* FLMainTableViewCell.m */,
-				8469A80C1A669463003CF3CF /* FLMainTableViewCell.xib */,
+				6EC4B31D1A67DB6A00503F98 /* FLMainTableViewCell.xib */,
 				8469A80D1A669463003CF3CF /* FLMainViewController.h */,
 				8469A80E1A669463003CF3CF /* FLMainViewController.m */,
-				8469A80F1A669463003CF3CF /* FLMainViewController.xib */,
+				6EC4B31B1A67DAC200503F98 /* FLMainViewController.xib */,
 			);
 			path = FLMainViewController;
 			sourceTree = "<group>";
@@ -828,17 +828,17 @@
 				6ECD9B7D1A6548110043596E /* Checkmark.png in Resources */,
 				6ECD9C0D1A6559800043596E /* logo.png in Resources */,
 				6ECD9BEA1A654B7B0043596E /* pullDownArrow.png in Resources */,
+				6EC4B31C1A67DAC200503F98 /* FLMainViewController.xib in Resources */,
 				6ECD9C0B1A6556410043596E /* search.png in Resources */,
 				6ECD9BEF1A654B7B0043596E /* MJRefresh.bundle in Resources */,
 				6E5E66FA1A66AD39008BAB26 /* purchase_btn.png in Resources */,
 				6E5E66FD1A66B4EE008BAB26 /* right_arrow.png in Resources */,
+				6EC4B31E1A67DB6A00503F98 /* FLMainTableViewCell.xib in Resources */,
 				6E5E66F91A66AD39008BAB26 /* new_site_btn.png in Resources */,
-				8469A8291A66CD34003CF3CF /* FLMainTableViewCell.xib in Resources */,
 				6ECD9BE81A654B7B0043596E /* down_dark.png in Resources */,
 				6ECD9B291A65465E0043596E /* LaunchScreen.xib in Resources */,
 				8469A8191A6699A2003CF3CF /* FLGroupListViewController.xib in Resources */,
 				8469A8201A669B5F003CF3CF /* FLGroupListCell.xib in Resources */,
-				8469A8131A669463003CF3CF /* FLMainViewController.xib in Resources */,
 				8469A8281A66BEFE003CF3CF /* FLGroupDetailViewController.xib in Resources */,
 				6ECD9C141A655F7C0043596E /* placeholder.jpg in Resources */,
 				6ECD9B261A65465E0043596E /* Images.xcassets in Resources */,
