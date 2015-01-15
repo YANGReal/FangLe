@@ -8,13 +8,11 @@
 
 #import "FLMainViewController.h"
 #import "FLMainTableViewCell.h"
-<<<<<<< HEAD
-@interface FLMainViewController ()<UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate>
-=======
 #import "FLGroupListViewController.h"
+@interface FLMainViewController ()<UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate>
 
-@interface FLMainViewController ()<UITableViewDataSource,UITableViewDelegate>
->>>>>>> FETCH_HEAD
+
+
 @property (weak , nonatomic) IBOutlet UITableView *tableView;
 @property (weak , nonatomic) IBOutlet UIView *headerView;
 @property (weak , nonatomic) IBOutlet UIView *titleView;
@@ -52,12 +50,12 @@
 - (void)setupViews
 {
     self.title = @"房乐网";
-<<<<<<< HEAD
+
     UIButton *button = [AppUtility generateButtonWithImageName:@"search.png"];
     [button addTarget:self action:@selector(searchButtonClicked) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
 
-=======
+
     UIButton *searchbutton = [AppUtility generateButtonWithImageName:@"search.png"];
     [searchbutton addTarget:self action:@selector(searchButtonClicked) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:searchbutton];
@@ -69,16 +67,16 @@
     
     
     self.titleView.backgroundColor = CLEAR_COLOR;
->>>>>>> FETCH_HEAD
+
     self.navigationItem.titleView = self.titleView;
 
     self.tableView.tableHeaderView = self.headerView;
-<<<<<<< HEAD
-    self.tableView.tableFooterView = [UIView new];
+
+   // self.tableView.tableFooterView = [UIView new];
     
-=======
+
     self.tableView.tableFooterView = self.moreButton;
->>>>>>> FETCH_HEAD
+
     UINib *nib = [UINib nibWithNibName:@"FLMainTableViewCell" bundle:nil];
     [self.tableView registerNib:nib forCellReuseIdentifier:@"cell"];
 }
@@ -126,17 +124,18 @@
     return view;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView
+heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 140;
+}
+
+
 - (UITableViewCell *)tableView:(UITableView *)tableView
          cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *identifier = @"cell";
     FLMainTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
-<<<<<<< HEAD
-    
-    [cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
-    
-=======
->>>>>>> FETCH_HEAD
     return cell;
 }
 
